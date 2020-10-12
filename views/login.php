@@ -1,11 +1,12 @@
 <?php
+//page for sign in
 require_once(ROOT.'/layout/head.php');
 ?>
 <body>
 <div class="page-header header container-fluid">
     <div class="overlay">
         <div class="description">
-            <h1>Увійдіть у MyTeam</h1>
+            <h1>Увійдіть у MyNotes</h1>
             <form action="#" method="post">
                 <?php if(isset($errors) && is_array($errors)):?>
                     <ul>

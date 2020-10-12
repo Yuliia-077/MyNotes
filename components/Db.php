@@ -1,6 +1,7 @@
 <?php
 class Db
 {
+    // connect to database
     public static function getConnection()
     {
         $params = include(ROOT.'/config/db_params.php');

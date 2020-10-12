@@ -1,4 +1,5 @@
 <?php
+//sign up
 require_once(ROOT.'/layout/head.php');
 ?>
 <body>
@@ -12,7 +13,7 @@ require_once(ROOT.'/layout/head.php');
 <div class="page-header header container-fluid">
     <div class="overlay">
         <div class="description">
-            <h1>Реєстрація у MyTeam</h1>
+            <h1>Реєстрація у MyNotes</h1>
             <form action="#" method="post">
                 <div class="form-group">
                     <input type="text" name="user_name" class="form-control-md" placeholder="Ім'я користувача*"  value="<?php echo $user_name; ?>"/><br>

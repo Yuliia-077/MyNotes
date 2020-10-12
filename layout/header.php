@@ -1,7 +1,7 @@
 <?php
 require_once(ROOT . "/layout/head.php");
 ?>
-
+<--?header and menu-->
 <body class="header">
 <nav class="navbar navbar-default">
     <div class="container-fluid">

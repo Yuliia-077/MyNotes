@@ -1,4 +1,5 @@
 <?php
+//routes for controllers and their action
 return array(
     'exit'=>'user/exit',
     'add'=>'note/add',

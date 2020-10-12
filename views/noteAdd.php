@@ -1,18 +1,15 @@
 <?php
+//add note
 require_once(ROOT.'/layout/header.php');
 ?>
 
 <div class="container">
-    <h1>Додати замітку</h1>
     <form action="#" method="post">
-        <?php if(isset($errors) && is_array($errors)):?>
-            <ul>
-                <?php foreach ($errors as $error):?>
-                    <li class="error"><?php echo $error; ?></li>
-                <?php endforeach;?>
-            </ul>
-        <?php endif;?>
-        <div class="form-group">
+        <div class="note-add">
+            <h1>Додати замітку</h1>
+            <?php if(isset($error)):?>
+                <p class="error" style="text-align: center"><?php echo $error; ?></p>
+            <?php endif;?>
             <label for="heading" class="col-form-label">Тема:</label><br>
             <input type="heading" name="heading" class="form-control-md" id="heading"/><br>
             <label for="note" class="col-form-label">Текст замітки:</label><br>

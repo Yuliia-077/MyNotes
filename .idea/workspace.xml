@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cae562c2-ea58-4a60-b09f-e8b7bd7b8d89" name="Default Changelist" comment="" />
+    <list default="true" id="cae562c2-ea58-4a60-b09f-e8b7bd7b8d89" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db_params.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/db_params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/NoteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/NoteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/layout/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/layout/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/js_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Note.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Note.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/showPassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/showPassword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/noteAdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/noteAdd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/registration.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +52,9 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ij9nEIGNgmeLvdsN6OiPuybiDv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -17,9 +62,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -28,6 +75,9 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\yulia\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cae562c2-ea58-4a60-b09f-e8b7bd7b8d89" name="Default Changelist" comment="" />
@@ -37,11 +87,28 @@
       <updated>1602410300641</updated>
       <workItem from="1602410301903" duration="29707000" />
       <workItem from="1602450161456" duration="835000" />
+      <workItem from="1602451065624" duration="7469000" />
+      <workItem from="1602463456475" duration="374000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1602422627562">
@@ -52,6 +119,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="396" y="165" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1602450733925" />
+    <state x="437" y="0" key="#PHP" timestamp="1602462929659">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="437" y="0" key="#PHP/0.0.1280.680@0.0.1280.680" timestamp="1602462929659" />
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602424579804">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -60,14 +131,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602448454745" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1602450760822">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1602463075175">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602450760822" />
-    <state x="520" y="239" width="447" height="203" key="Github.ShareDialog" timestamp="1602450691349">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602463075175" />
+    <state x="520" y="239" width="447" height="203" key="Github.ShareDialog" timestamp="1602463114516">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="520" y="239" width="447" height="203" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1602450691349" />
+    <state x="520" y="239" width="447" height="203" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1602463114516" />
+    <state x="482" y="46" key="Github.UntrackedFilesDialog" timestamp="1602451231845">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="482" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602451231845" />
     <state x="440" y="64" key="NewPhpClassDialog" timestamp="1602442747392">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -76,5 +151,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1602445593354" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602462916086">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602462916086" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602462899295">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1602462899295" />
+    <state x="471" y="132" key="svn.repositoryBrowser" timestamp="1602463094339">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="471" y="132" key="svn.repositoryBrowser/0.0.1280.680@0.0.1280.680" timestamp="1602463094339" />
+    <state x="470" y="115" key="svn4idea.import.options" timestamp="1602463080330">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="470" y="115" key="svn4idea.import.options/0.0.1280.680@0.0.1280.680" timestamp="1602463080330" />
   </component>
 </project>

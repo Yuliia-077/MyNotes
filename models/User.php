@@ -2,6 +2,7 @@
 
 class User
 {
+    //check inf login
     public static function checkUserData($email, $password)
     {
         $db = Db::getConnection();
@@ -24,6 +25,7 @@ class User
         return false;
     }
 
+    //startup session
     public static function auth($userId)
     {
         session_start();
@@ -31,6 +33,7 @@ class User
 
     }
 
+    //check user in session
     public static function checkLogged()
     {
         session_start();
@@ -40,7 +43,19 @@ class User
         }
         header("Location: login");
     }
+
+    //remove session
+    public static function deleteSession()
+    {
+        session_start();
+        if(isset($_SESSION['user']))
+        {
+            session_destroy();
+        }
+        header("Location: main");
+    }
     
+    //check user name
     public static function checkUserName($user_name)
     {
         if(strlen($user_name)>=2)
@@ -50,6 +65,7 @@ class User
         return false;
     }
 
+    //check email
     public static function checkEmail($email)
     {
         if($email=='')
@@ -59,6 +75,7 @@ class User
         return true;
     }
 
+    //check email is in db
     public static function checkEmailExists($email)
     {
         $db = Db::getConnection();
@@ -74,6 +91,7 @@ class User
         return false;
     }
     
+    //check password
     public static function checkPassword($password)
     {
         if($password=='')
@@ -83,6 +101,7 @@ class User
         return true;
     }
     
+    //check repeat password
     public static function checkRepPassword($rep_password, $password)
     {
         if($rep_password=='')
@@ -99,6 +118,7 @@ class User
         return true;
     }
     
+    //add user in db
     public static function addUser($user_name, $first_name, $last_name, $date_of_birth, $email, $password)
     {
         $db = Db::getConnection();

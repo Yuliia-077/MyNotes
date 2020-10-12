@@ -1,9 +1,10 @@
 <?php
 
 require_once(ROOT.'/models/User.php');
-
+//controller for users
 class UserController
 {
+    //check login
     public function actionLogin()
     {
         $email = '';
@@ -43,6 +44,7 @@ class UserController
         return true;
     }
     
+    //check registration
     public function actionRegistration()
     {
         $user_name = '';
@@ -101,8 +103,10 @@ class UserController
         return true;
     }
 
+    //finish session
     public function actionExit()
     {
-        session_destroy();
+        User::deleteSession();
+        return true;
     }
 }

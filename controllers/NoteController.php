@@ -2,9 +2,10 @@
 
 require_once(ROOT.'/models/User.php');
 require_once(ROOT.'/models/Note.php');
-
+// controller for changing inf in note
 class NoteController
 {
+    //open dashboard and check user is logged
     public function actionOpen()
     {
         $userId = User::checkLogged();
@@ -14,6 +15,7 @@ class NoteController
         return true;
     }
 
+    //for adding note
     public function actionAdd()
     {
         $error = false;
@@ -37,10 +39,11 @@ class NoteController
 
     }
 
+    //delete note
     public function actionDelete($id)
     {
         Note::noteDelete($id);
-        header('Location: /index');
+        header('Location: /dashboard');
         return true;
 
     }

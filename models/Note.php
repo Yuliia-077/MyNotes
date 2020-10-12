@@ -1,8 +1,9 @@
 <?php
 
-
+//models for note
 class Note
 {
+    //select from db all notes this user
     public static function notesList($userId)
     {
         $db = Db::getConnection();
@@ -22,6 +23,7 @@ class Note
         return $notes;
     }
 
+    //check new note
     public static function checkNote($note)
     {
         if($note=='')
@@ -31,6 +33,7 @@ class Note
         return true;
     }
 
+    //add to db new note
     public static function noteAdd($heading, $note)
     {
         $db = Db::getConnection();
@@ -45,6 +48,7 @@ class Note
         $result = $db->query("");
     }
 
+    //delete from db note
     public static function noteDelete($id)
     {
         $db = Db::getConnection();

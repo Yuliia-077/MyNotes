@@ -1,3 +1,4 @@
+<--? head of all page wth connection bootstrap, css, js, jquery-->
 <!DOCTYPE html>
 <html lang="uk">
 <head>
